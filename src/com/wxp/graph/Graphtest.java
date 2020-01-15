@@ -16,6 +16,7 @@ public static void main(String[] args) {
 	graph.showGraph();
 	System.out.println(graph.getNumberOfEdges());
 	System.out.println(graph.getnumberofvertex());
+	//graph.bfs();
 	graph.Graphdfs();
 }
 

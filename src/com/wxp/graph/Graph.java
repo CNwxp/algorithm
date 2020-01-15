@@ -1,6 +1,8 @@
 package com.wxp.graph;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
 
 public class Graph {
  private ArrayList<String> vertexList; //储存顶点的集合
@@ -114,5 +116,34 @@ public class Graph {
 	/**
 	 * ------end-----
 	 */
-	
+	/**
+	 * 图的广度优先遍历
+	 */
+	public void graphbfs(boolean [] isvisited,int i) {
+		int u ;//头结点坐标
+		LinkedList quen = new LinkedList();
+			quen.addLast(i);
+			isvisited[i]=true;
+			System.out.print(vertexList.get(i)+"->>");
+			while (!quen.isEmpty()) {
+				u =(Integer)quen.removeFirst();
+				int w =getFirstNeighbor(i);
+				while (w!=-1) {
+					if(!isvisited[w]) {
+						System.out.print(vertexList.get(w)+"->>");
+						isvisited[w]=true;
+					quen.addLast(w);
+				}
+					 w=getNextNeighbor(u, w);
+				}
+			}
+	}
+	public void bfs() {
+		isvisited =new boolean[vertexList.size()];
+		for (int i = 0; i < vertexList.size(); i++) {
+			if (!isvisited[i]) {
+				graphbfs(isvisited, i);
+			}
+		}
+	}
 }
