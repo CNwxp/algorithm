@@ -5,4 +5,4 @@
 #### 链表
 - [链表](https://github.com/CNwxp/algorithm/blob/master/linkedlist/levaltraversal.md)
 #### 面试题
-- [java内存模型(jmm)]()
+- [java内存模型(JMM)](https://github.com/CNwxp/algorithm/new/master)
