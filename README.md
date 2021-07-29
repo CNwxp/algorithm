@@ -8,7 +8,7 @@
 - [链表](https://github.com/CNwxp/algorithm/blob/master/linkedlist/levaltraversal.md):pencil2:
 ----
 #### 面试题
-- [java内存模型(JMM)](https://github.com/CNwxp/algorithm/new/master):pencil2:
+- [java内存模型(JMM)](https://github.com/CNwxp/algorithm/blob/master/interview/JMM.md):pencil2:
 - [redis]:pencil2:
 - [常见的锁]:pencil2:
   
