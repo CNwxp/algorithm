@@ -22,7 +22,7 @@ JMM 的规定：
 
 JMM 的抽象示意图：
 
-![JMM](https://img-blog.csdnimg.cn/20200506232135411.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L29zY2hpbmFfNDE3OTA5MDU=,size_16,color_FFFFFF,t_70)
+![JMM](./JMM01.png)
 
 从图中可以更直观的看出，每个线程的内存都是独立的，线程对变量的操作只能在工作内存中进行，然后刷回到主存。这便是 Java 内存模型定义的线程基本工作方式。
 
@@ -30,7 +30,7 @@ JMM 的抽象示意图：
 
 为了更直观，先来看看这张图吧：
 
-![交互操作](https://i.loli.net/2020/09/26/WpVvwd61PN4YboJ.png)
+![交互操作](./JMM02.png)
 
 1. lock(锁定)：作用于**主内存**中的变量，一个变量在同一时间只能被一个线程锁定，即把变量标识为线程**独占**状态。
 2. read(读取)：作用于**主内存**变量，表示把一个变量值从主内存传输到线程的工作内存中，以便下一步的 load 操作使用。
