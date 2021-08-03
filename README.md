@@ -8,7 +8,7 @@
 - [二叉树的遍历](https://github.com/CNwxp/algorithm/blob/master/Tree/iterator.md):pencil2:
 ----
 #### 链表
-- [单向链表的反转](https://github.com/CNwxpalgorithm/linkedlist/reverseLinkdedList.md):pencil2:
+- [单向链表的反转](https://github.com/CNwxp/algorithm/blob/master/linkedlist/reverseLinkdedList.md):pencil2:
 #### 面试题
 - [java内存模型(JMM)](https://github.com/CNwxp/algorithm/blob/master/interview/JMM.md):pencil2:
 - [redis]:pencil2:
