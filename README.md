@@ -131,6 +131,6 @@
 
 #### 面试题
 - [java内存模型(JMM)](https://github.com/CNwxp/algorithm/blob/master/interview/JMM.md):pencil2:
-- [redis]:(https://github.com/CNwxp/algorithm/blob/master/interview/redis.md):pencil2:
-- [常见的锁]:pencil2:
+- [redis](https://github.com/CNwxp/algorithm/blob/master/interview/redis.md):pencil2:
+- [常见的锁]pencil2:
   
