@@ -133,4 +133,7 @@
 - [java内存模型(JMM)](https://github.com/CNwxp/algorithm/blob/master/interview/JMM.md):pencil2:
 - [redis](https://github.com/CNwxp/algorithm/blob/master/interview/redis.md):pencil2:
 - [常见的锁](https://github.com/CNwxp/algorithm/blob/master/interview/synchronized.md):pencil2:
-  
+- [mysql](https://github.com/CNwxp/algorithm/blob/master/interview/mysql.md):pencil2:
+- [jvm](https://github.com/CNwxp/algorithm/blob/master/interview/jvm.md):pencil2:
+- [springCloud](https://github.com/CNwxp/algorithm/blob/master/interview/springCloud.md):pencil2:
+- [springBoot](https://github.com/CNwxp/algorithm/blob/master/interview/springBoot.md):pencil2:
