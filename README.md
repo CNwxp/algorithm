@@ -130,6 +130,7 @@
 >  该图引用力扣的精选题解
 
 #### 面试题
+- [java基础](https://github.com/CNwxp/algorithm/blob/master/interview/javase.md):pencil2:
 - [java内存模型(JMM)](https://github.com/CNwxp/algorithm/blob/master/interview/JMM.md):pencil2:
 - [redis](https://github.com/CNwxp/algorithm/blob/master/interview/redis.md):pencil2:
 - [常见的锁](https://github.com/CNwxp/algorithm/blob/master/interview/synchronized.md):pencil2:
