@@ -45,7 +45,8 @@ protected AutoConfigurationEntry getAutoConfigurationEntry(AnnotationMetadata an
 ### 启动过程
 spring-boot-maven-plugin 作用
 springboot怎么启动spring容器的
-为什么springboot可以直接jar包运行
+
+什么时候实例化自动装配的配置类的
 spi机制
 
 
