@@ -15,3 +15,7 @@ java 8 链表过长会转成红黑树  有个阈值treeIFY_TREESHOLD=8
 
 
 **熟悉扩容的过程**
+
+#### concurrentMap
+> 写同步
+> jdk1.7的时候
