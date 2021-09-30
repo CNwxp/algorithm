@@ -16,3 +16,7 @@
 > undo日志
 > 一致性试图read-view
 > binlog和redolog的使用
+
+
+**参考文献**
+[MVCC多版本并发控制原理详解](https://blog.csdn.net/STILLxjy/article/details/112190576)
