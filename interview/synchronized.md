@@ -156,3 +156,15 @@ private Node addWaiter(Node mode) {
 
 ```
 - 下面是解锁的过程unlock();
+```java
+ public final boolean release(int arg) {
+        if (tryRelease(arg)) {
+            Node h = head;
+            if (h != null && h.waitStatus != 0)
+                unparkSuccessor(h);
+            return true;
+        }
+        return false;
+    }
+
+```
