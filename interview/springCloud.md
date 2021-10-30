@@ -21,6 +21,7 @@
 >>>  C:一致性  A：可用性  p:分区容错性:不要因为分布式系统多个节点之间的网络不通而导致整个系统不能用
 - Nacos&Zookeeper&Eureka的CAP架构的横向对比
 - Raft协议动态图解
+ >>> 演示地址 http://thesecretlivesofdata.com/raft/
 - Nacos集群CP机构基于Raft协议源码剖析
 - Nacos集群CP架构的脑裂问题
 - 基于云SaaS的超大规模注册中心架构设计
