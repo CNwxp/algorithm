@@ -32,3 +32,11 @@ java 8 链表过长会转成红黑树  有个阈值treeIFY_TREESHOLD=8
       RejectedExecutionHandler// 拒绝策略
  
  ```
+ ##### 线程创建过程
+  ![线程创建过程](https://github.com/CNwxp/algorithm/blob/master/interview/%E7%BA%BF%E7%A8%8B%E6%B1%A0%E7%9A%84%E6%89%A7%E8%A1%8C%E6%B5%81%E7%A8%8B.jpg)
+  如果有任务提交进来
+   - 先看线程池里面核心线程有没有创建完成
+   - 如果核心线程满了，就把任务放进阻塞队列里。
+   - 如果阻塞队列也满了，就创建非核心线程去执行任务。
+   - 线程池超过最大线程数，执行拒绝策略
+ 
