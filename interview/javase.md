@@ -19,3 +19,16 @@ java 8 链表过长会转成红黑树  有个阈值treeIFY_TREESHOLD=8
 #### concurrentMap
 > 写同步
 > jdk1.7的时候
+
+
+#### 线程池
+ ```java
+      int corePoolSize,// 核心线程数
+      int maximumPoolSize,// 最大线程数
+      long keepAliveTime,// 最大允许线程休息时间
+      TimeUnit unit,// 时间单位
+      BlockingQueue<Runnable> workQueue// 存放未来得及执行的任务
+      ThreadFactory // 创建线程的工厂
+      RejectedExecutionHandler// 拒绝策略
+ 
+ ```
