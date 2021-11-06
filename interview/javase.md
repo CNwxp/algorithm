@@ -39,4 +39,9 @@ java 8 链表过长会转成红黑树  有个阈值treeIFY_TREESHOLD=8
    - 如果核心线程满了，就把任务放进阻塞队列里。
    - 如果阻塞队列也满了，就创建非核心线程去执行任务。
    - 线程池超过最大线程数，执行拒绝策略
+  **线程池的拒绝策略**
+   1、AbortPolicy：直接抛出异常，默认策略； 
+   2、CallerRunsPolicy：用调用者所在的线程来执行任务；
+   3、DiscardOldestPolicy：丢弃阻塞队列中靠最前的任务，并执行当前任务；
+   4、DiscardPolicy：直接丢弃任务；
  
