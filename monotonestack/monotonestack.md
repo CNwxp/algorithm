@@ -18,5 +18,8 @@ stack.push(a);
 - 单调递增栈可以找到左起第一个比当前数字小的元素
   
 - 单调递减栈可以找到左起第一个比当前数字大的元素
-  [LeetCode 739每日温度](https://leetcode-cn.com/problems/daily-temperatures/solution/leetcode-tu-jie-739mei-ri-wen-du-by-misterbooo/)
+  [leetCode 739每日温度](https://leetcode-cn.com/problems/daily-temperatures/solution/leetcode-tu-jie-739mei-ri-wen-du-by-misterbooo/)
   
+#### leetcode常见的题
+  [leetCode 42接雨水](https://leetcode-cn.com/problems/trapping-rain-water/solution/trapping-rain-water-by-ikaruga/)
+  [leetCode 84最大矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/solution/84-by-ikaruga/)
