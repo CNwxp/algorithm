@@ -125,8 +125,9 @@
 </tr>
 </tbody>
 </table>
-#### 单调栈
 
+#### 单调栈
+  - [单调栈](https://github.com/CNwxp/algorithm/blob/master/monotonestack/monotonestack.md):pencil2:
 #### 快慢指针
 - 876 链表中间的数
 
