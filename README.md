@@ -147,3 +147,5 @@
 - [springBoot](https://github.com/CNwxp/algorithm/blob/master/interview/springBoot.md):pencil2:
 - [spring](https://github.com/CNwxp/algorithm/blob/master/interview/spring.md):pencil2:
 - [java并发](https://github.com/CNwxp/algorithm/blob/master/interview/juc.md):pencil2:
+# 爬虫
+ - [selenium自动登录和滑动验证](https://github.com/CNwxp/algorithm/blob/master/crawler/selenium.md):pencil2:
