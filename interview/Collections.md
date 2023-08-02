@@ -1,65 +1,18 @@
-> HashMap
 
- 1.7-hashtable = 数组（基础） + 链表 
 
- （>=）1.8 = 数组 + 链表 + 红黑树
-
-HashMap->数组的大小
-
-new HashMap（）；如果不写构造参数，默认大小16
-
-如果说：写了初始容量：11 ？hashmap的容量就是11？
-
-hashmap的get，put操作时间复杂度O(1)
-
-key.hashCode = 不确定 - 有符号的整型值
-
-key.hashCode % 16 = table.lenth = [0-15]  = index = 3;
-
-array[index] = value; 
-
-数组所有的元素位是否能够100%被利用起来？
-
-不一定，hash碰
-
-引入链表结构解决hash冲突，采用头部插入链表法，链表时间复杂度O(n)
-
-hash并不是用取模计算index，而是用位运算！
-
-效率：位运算>%
-
-并没有说hashmap的容量一定是16，
+#### hashMap
+- hashMap的数组默认大小为16,如果输入数组初始化的值会强制转为2的n次幂
+  
+  0001 0101 0111 0010 1010(某个key的hash值)  
+  0000 0000 0000 0001 0000(数组大小,由于是2的n次幂，所以只有某一位是1)  
+  keyhash&lenth-1的范围就在0到15  
+  0001 0101 0111 0010 1010  
+  0000 0000 0000 0000 1111(16-1)  
+  方便使用位运算、位运算的效率大概是取模运算的10倍。
+- hashMap的扩容机制
+  ![1690963500395](https://github.com/CNwxp/algorithm/assets/48647632/7e080138-1df6-443f-8ddb-412ab226fcc3)
 
 ```java
-/** * The default initial capacity - MUST be a power of two. */必须是2的指数幂？
-
-roundUpToPowerOf2(size)，强型将非2的指数次幂的数值转化成2的指数次幂
-怎么转化？
-1、必须最接近size，11
-2、必须大于=size，
-3、是2的指数次幂
-16
-size = 17，capacity = 32
-
-为什么一定要转成2的指数次幂？
-计算索引：int i = indexFor(hash, table.length);
-static int indexFor(int h, int length) {
-//  key.hashCode % table.lenth
-	return h & (table.lenth-1);
-}
-
-h = 
-0001 0101 0111 0010 1111
-0001 0101 0000 0010 0000
-16
-    0
-    
-0000 0000 0000 0000 1111 16-1=15
-0000 0000 0000 0000 1010
-0-15
-bit位运算：1815ms
-mod取模运算：22282
-效率差10倍
 
 HashMap扩容，
 当前hashmap存了多少element，size>=threshold
