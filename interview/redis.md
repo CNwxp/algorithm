@@ -223,3 +223,7 @@ src/redis-cli -p 26379
 5、可以自己再配置两个sentinel，端口26380和26381，注意上述配置文件里的对应数字都要修改
 
 ```
+
+**redis的数据结构**
+zset
+- https://www.cnblogs.com/wowosong/p/16983986.html
