@@ -54,3 +54,4 @@ int [] nums={6, 1, 2, 7, 9, 3, 4, 5, 10, 8}
     }
 
 ```
+[快排演示地址](https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html)
