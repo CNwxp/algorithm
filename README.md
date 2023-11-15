@@ -3,7 +3,7 @@
 ------
 
 #### 排序
- - [快速排序](https://github.com/CNwxp/algorithm/blob/master/sort/quicksort)
+ - [快速排序](https://github.com/CNwxp/algorithm/blob/master/sort/quicksort.md)
 ----
 #### 经典算法
 - [贪心算法(greedy algorithm)](https://github.com/CNwxp/algorithm/blob/master/learning-note/%E8%B4%AA%E5%BF%83%E7%AE%97%E6%B3%95(greedy%20algorithm).md)
