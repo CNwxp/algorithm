@@ -7,10 +7,10 @@
  - [冒泡排序](https://github.com/CNwxp/algorithm/blob/master/sort/bubblesort.md)
 ----
 #### 经典算法
+- [动态规划](https://github.com/CNwxp/algorithm/tree/master/dynamic-programming/dynamic-programming.md)
 - [贪心算法(greedy algorithm)](https://github.com/CNwxp/algorithm/blob/master/learning-note/%E8%B4%AA%E5%BF%83%E7%AE%97%E6%B3%95(greedy%20algorithm).md)
 - 前缀和
 - [DFS算法](https://github.com/CNwxp/algorithm/blob/master/learning-note/dfs%E7%AE%97%E6%B3%95)
-- [动态规划]()
 ----
 #### 树
 - [二叉树的遍历](https://github.com/CNwxp/algorithm/blob/master/Tree/iterator.md):pencil2:
